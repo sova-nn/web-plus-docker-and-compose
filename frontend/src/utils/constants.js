@@ -1,4 +1,4 @@
-export const URL = "https://api.geekonclick-docker.nomorepartiesco.ru";
+export const URL = "https://api.nmo-diploma.nomorepartiessbs.ru";
 
 export const MINIMUM_PASSWORD_LENGTH = 3;
 export const MINIMUM_USERNAME_LENGTH = 3;

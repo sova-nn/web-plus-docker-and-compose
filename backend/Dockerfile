@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install -g pm2
-RUN npm install
+RUN npm ci --omit=dev --no-audit --no-fund \
+    && npm i -g pm2
 
 COPY . .
 

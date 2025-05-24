@@ -1,8 +1,5 @@
 services:
   frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
     container_name: kpd_frontend
     image: miosurnia/kpd_frontend
     ports:
@@ -11,9 +8,6 @@ services:
       - app-network
 
   backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
     container_name: kpd_server
     image: miosurnia/kpd_backend
     ports:
